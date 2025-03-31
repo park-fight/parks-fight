@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>제1회 천하제일 성우 대회 신청 사이트</title>
+  <style>
+    body { font-family: 'Arial'; background-color: #f0f8ff; text-align: center; padding: 40px; }
+    h1 { color: #2c3e50; }
+    form { background-color: #ffffff; padding: 20px; border-radius: 10px; display: inline-block; }
+    input, select, textarea {
+      padding: 10px; margin: 10px; width: 250px;
+      border: 1px solid #ccc; border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px; background-color: #3498db; color: white;
+      border: none; border-radius: 5px; cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>제1회 천하제일 성우 대회 신청하기</h1>
+  <form>
+    <input type="text" placeholder="이름을 입력하세요" required><br>
+    <input type="email" placeholder="이메일 주소" required><br>
+    <select>
+      <option>참가 부문 선택</option>
+      <option>초보 대회</option>
+      <option>고수 대회</option>
+      <option>고인물 대회</option>
+    </select><br>
+    <textarea placeholder="이 한국에 있는 최강의 성우를 찾아라!" rows="4"></textarea><br>
+    <button type="submit">신청하기</button>
+  </form>
+</body>
+</html>
