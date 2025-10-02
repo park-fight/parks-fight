@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>제1회 성우 대회 사이트</title>
+  <title>제1회 6-1 대회 사이트</title>
   <style>
     body { font-family: 'Arial'; background-color: #f0f8ff; text-align: center; padding: 40px; }
     h1 { color: #2c3e50; }
@@ -33,10 +33,10 @@
   </style>
 </head>
 <body>
-  <h1>제1회 성우 대회 신청하기</h1>
+  <h1>제1회 6-1 대회 신청하기</h1>
   <form onsubmit="return showExpiredMessage()">
     <input type="text" placeholder="이름을 입력하세요" required><br>
-    <input type="email" placeholder="이메일 주소" required><br>
+    <input type="text" placeholder="이메일 주소" required><br>
     <select required>
       <option value="">참가 부문 선택</option>
       <option>초보 대회</option>
@@ -44,16 +44,18 @@
       <option>고수 대회</option>
       <option>고인물 대회</option>
       <option>썩은물 대회</option>
+      <option>이선#를 이겨라 대회</option>
     </select><br>
-    <textarea placeholder="박성우로서 한 마디" rows="4"></textarea><br>
+    <textarea placeholder="6-1로서 한 마디" rows="4"></textarea><br>
     <button type="submit">신청하기</button>
   </form>
 
   <script>
     function showExpiredMessage() {
-      alert("이미 만료된 대회입니다.절대 귀찮아서 아님");
+      alert("이미 만료된 대회입니다.진짜 절대 무조건 귀찮아서가 아니라 귀찮아서 임ㅋ");
       return false;
     }
   </script>
 </body>
+
 </html>
